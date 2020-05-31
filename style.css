@@ -26,9 +26,10 @@ body {
 
 h1 {
     text-align: center;
-    width: 20%;
+    width: 50%;
+    font-size: 60px;
     position: fixed;
-    left: 40%;
+    left: 25%;
     top: 40%;
     color: hsl(202, 100%, 38%)
 }
@@ -36,10 +37,10 @@ h1 {
 #line {
     background-color: hsl(45, 52%, 75%);
     position:fixed;
-    left: 40%;
+    left: 25%;
     top: 40%;
     height: 1%;
-    width: 30%;
+    width: 50%;
     animation-name: line-move;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -49,7 +50,7 @@ h1 {
         width: 1%;
     }
     50% {
-        width: 30%;
+        width: 50%;
     }
     100% {
         width: 1%;
