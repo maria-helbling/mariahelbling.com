@@ -42,17 +42,28 @@ h1 {
     height: 1%;
     width: 50%;
     animation-name: line-move;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 @keyframes line-move {
     0% {
         width: 1%;
+        left: 25%;
+    }
+    25% {
+        width: 50%;
+        left:25%;
     }
     50% {
+        width: 1%;
+        left:74%;
+    }
+    75% {
         width: 50%;
+        left:25%;
     }
     100% {
         width: 1%;
+        left: 25%;
     }
 }
