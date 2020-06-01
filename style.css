@@ -20,8 +20,7 @@
 }
 
 body {
-    background-color: hsl(45, 52%, 90%);
-    font-family: "presa", "lato", sans-serif;
+    background-color: hsl(45, 52%, 90%);    
 }
 
 h1 {
@@ -31,10 +30,49 @@ h1 {
     position: fixed;
     left: 25%;
     top: 40%;
-    color: hsl(202, 100%, 38%)
+    color: hsl(202, 100%, 38%);
+    font-family: "presa", "lato", sans-serif;
+}
+.main {
+    margin-right: 20vw;
+    padding-right: 0.5vw;
+}
+.sidenav {
+    text-transform: uppercase;
+    height: 100%;
+    width: 20vw;
+    position: fixed;
+    Top:0;
+    left:80vw;
+    z-index: 1;
+    overflow-x: hidden;
+    border-left-width: 0.3vw;
+    border-left-color: hsl(202, 100%, 38%);
+    border-left-style: solid;
+    padding-top: 32.5vh;
+    }
+
+.sidenav a{
+    font-family: "presa", "lato", sans-serif;
+    font-size: 3vh;
+    font-weight: 800;
+    color: hsl(202, 100%, 38%);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 2vh 0.1vw 2vh 0.1vw;
+
 }
 
-#line {
+.sidenav a:hover{
+    background-color: hsl(45, 52%, 75%);
+}
+
+.sidenav a.active{
+    background-color: hsl(45, 52%, 75%);
+}
+
+#movingLine {
     background-color: hsl(45, 52%, 75%);
     position:fixed;
     left: 25%;
