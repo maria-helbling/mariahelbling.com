@@ -23,27 +23,37 @@ body {
     background-color: hsl(45, 52%, 90%);    
 }
 
-h1 {
+h2 {
     text-align: center;
-    width: 50%;
+    width: 100%;
     font-size: 60px;
-    position: fixed;
-    left: 25%;
-    top: 40%;
+    position: absolute;
+    left: 0;
+    top: 15rem;
     color: hsl(202, 100%, 38%);
     font-family: "presa", "lato", sans-serif;
 }
-.main {
+
+main {
     margin-right: 20vw;
     padding-right: 0.5vw;
+    margin-left: 10vw;
+    position: relative;
 }
+
+section {
+    border: solid 10px salmon;
+    position: relative;
+    height:100vw;
+}
+
 .sidenav {
     text-transform: uppercase;
     height: 100%;
     width: 20vw;
     position: fixed;
     Top:0;
-    left:80vw;
+    right:0;
     z-index: 1;
     overflow-x: hidden;
     border-left-width: 0.3vw;
@@ -72,12 +82,12 @@ h1 {
     background-color: hsl(45, 52%, 75%);
 }
 
-#movingLine {
+.movingLine {
     background-color: hsl(45, 52%, 75%);
-    position:fixed;
-    left: 25%;
-    top: 40%;
-    height: 1%;
+    position: absolute;
+    left: 0;
+    top: 15em;
+    height: 8px;
     width: 50%;
     animation-name: line-move;
     animation-duration: 6s;
